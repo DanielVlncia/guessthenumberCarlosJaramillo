@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                 guessings.setText(num.toString())
             } else {
                 guessings.setText("No puede ser.. ganaste:(")
+                guessed.visibility = View.VISIBLE
             }
 
         }
@@ -49,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                 guessings.setText(num.toString())
             } else {
                 guessings.setText("No puede ser.. ganaste:(")
+                guessed.visibility = View.VISIBLE
             }
         }
 
